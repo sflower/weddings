@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> HintWeddings.com | Find Your Style</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description=" content="We're here to help you find your unique wedding style! Find products from hundreds of boutique brands and create the wedding of your dreams!">
+        <meta property="og:title" content="HintWeddings.com | Find Your Style"/>
+        <meta property="og:type" content="website"/> 
+        <meta property="og:image" content="http://hintweddings.com/IMG/Logo.png"/>
+        <meta property="og:site_name" content="Hint Weddings"/> 
+        <meta property="og:url" content="http://hintweddings.com"/> 
+        <meta property="og:description" content="We're here to help you find your unique wedding style! Find products from hundreds of boutique brands and create the wedding of your dreams!"/>
+        <link rel="image_src" href="http://hintweddings.com/IMG/Logo.png" />
+        <link href='http://fonts.googleapis.com/css?family=Dosis|Ubuntu|Libre+Baskerville' rel='stylesheet' type='text/css'>
+        <link href="CSS/main.css" rel="stylesheet">
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-44026601-1', 'hintweddings.com');
+          ga('send', 'pageview');
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id='fadedOverlay' class='dontShow'></div>
+        <div id='fadedOverlay2' class='dontShow'></div>
+        <div id='fadedOverlay3' class='dontShow'></div>
+        <div id='Help' class='dontShow'><img src="IMG/close.png" class='close'><h1>Welcome!</h1><h2>We&#39ve found a range of amazing wedding items for you</h2><hr/><h2>Tell us what you think of each item and we&#39ll create a list of websites which best match your style!</h2></div>
+        <div id='congratulations' class='dontShow'><img src="IMG/close.png" class='close'><h1>Congratulations</h1><h2>You've liked your first 5 items!</h2><hr/><h2>Click on the browse button below to find the websites which match your style!</h2></div>
+        <div id='content'>
+            <div id='loadingOverlay'>
+                <h1>Loading</h1>
+            </div>
+            <div id='verticalOverlay' class='dontShow'>
+                <h1>Rotate Vertically</h1>
+            </div>
+        
+            <div id='theGameContainer'>
+
+                <div id='header' class='topradius'>
+                    <div id='logoHolder'>
+                        <div class='logo'><img src="IMG/Ring Top Left.svg"></div>
+                        <div class='logo'><img src="IMG/Ring Top Right.svg"></div>
+                        <div class='logo'><img src="IMG/Ring Bottom Left.svg"></div>
+                        <div class='logo'><img src="IMG/Ring Bottom Right.svg"></div>
+                    </div> <!-- end of logoHolder -->
+                    <div id='hintHolder'>
+                        <h6>Hint</h6>
+                        <h5>Weddings</h5>
+                    </div>  
+                </div> <!-- end of header -->
+
+                <div id='theGame' class='calculatedHeight'>
+
+                    <div id='game'>
+                        <div id='categoryImage'>
+                            <img src="">
+                        </div>
+                        <h1 id='imageText' class='dontShow'>Label</h1>            
+                        <div id='gameMargin'></div>
+                        <div id='imageHolder'>
+                            <div id='imageMargin'></div>
+                            <img src="" id="realImage" class="*" idnumber='0'>
+                        </div> <!-- end of imageHolder -->
+                        <div id='nope'>
+                            <h1>Nope</h1>
+                        </div>            
+                        <div id='like'>
+                            <h1>Like</h1>
+                        </div>
+                    </div> <!-- end of game -->
+
+                    <div id='filters'>
+                        <img src="IMG/close.png" class='close catsFilter'>
+                        <div id='AllCategory' class='actualCategory'>
+                            <img src="IMG/All.svg">
+                            <h4>All</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Cake.svg">
+                            <h4>Cakes</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Decorations.svg">
+                            <h4>Decorations</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Dresses.svg">
+                            <h4>Dresses</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Jewellery.svg">
+                            <h4>Jewellery</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Stationery.svg">
+                            <h4>Stationery</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Flowers.svg">
+                            <h4>Flowers</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Transport.svg">
+                            <h4>Transport</h4>
+                        </div>
+                        <div class='actualCategory'>
+                            <img src="IMG/Venue.svg">
+                            <h4>Venue</h4>
+                        </div>
+                        
+                    </div> <!-- end of filters -->
+              
+                </div><!--  end of theGame --> 
+                 
+                <div id='footer' class='bottomradius'>
+                    <div id='footerContainer'>
+                        <div class='category categoryMargin categoryFilter catsFilter percent25'><img src="IMG/Filter.svg"><h4>Filter</h4></div>
+                        <div id='shop' class='percent75 yay'>
+                            <h4>Browse </h4>
+                            <h3>0</h3>
+                            <h4> Items!</h4>
+                        </div> <!-- end of shop -->
+                    </div> <!-- end of footerContainer -->
+                </div> <!-- end of footer -->
+
+            </div><!-- end of theGameContainer -->
+
+            <div id='theShopContainer' class='calculatedWidth calculatedHeightExtra topradius bottomradius' >
+                <div class='scrollBox'></div>
+                <div id='theGameButton'>Get More Hints</div>
+            </div><!-- end of theShopContainer -->
+
+        </div> <!-- end of content -->
+
+        <!-- Running of all JS code -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script>
+        <script src="JS/main2.js"></script>
+        <!-- Finish of all JS code -->
+
+
+    </body>
+
+</html>

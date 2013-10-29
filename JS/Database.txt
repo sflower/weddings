@@ -1,0 +1,3 @@
+ID,IMG,LINK,CATEGORY
+1,http://www.gingerray.co.uk/mm5/graphics/00000001/VL201large.gif,http://www.gingerray.co.uk/VL-201_Vintage-Disposable-Camera-Vintage-Lace.html,Stationary
+2,test,testlink,testcategory
